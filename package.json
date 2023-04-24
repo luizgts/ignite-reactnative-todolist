@@ -1,6 +1,11 @@
 {
   "name": "todo_app_ignite",
   "version": "1.0.0",
+  "author": {
+    "name": "Luiz Gustavo Macedo Souza",
+    "email": "lgsouza.sp@gmail.com",
+    "url": "https://github.com/luizgts/todo-list-app"
+  },
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
