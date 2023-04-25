@@ -6,7 +6,7 @@ export function EmptyListItem() {
         <View style={styles.container}>
             <Image
                 style={styles.image}
-                source={require('../../../assets/clipboard.png')}
+                source={require('../../assets/clipboard.png')}
             />
             <Text style={{...styles.text, ...styles.textWeight}}>
                 Você ainda não tem tarefas cadastradas

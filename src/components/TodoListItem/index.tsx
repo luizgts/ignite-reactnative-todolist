@@ -16,11 +16,11 @@ export function TodoListItem( { data, onDelete, onToggle }: TodoListItemProps ) 
     let textDecoration: any
 
     if (data.isDone) {
-        checkImage = require('../../../assets/check-true.png')
+        checkImage = require('../../assets/check-true.png')
         textColor = colors.gray300
         textDecoration = styles.textDecoration
     } else {
-        checkImage = require('../../../assets/check-false.png')
+        checkImage = require('../../assets/check-false.png')
         textColor = colors.gray100
         textDecoration = null
     }
@@ -35,7 +35,7 @@ export function TodoListItem( { data, onDelete, onToggle }: TodoListItemProps ) 
             <Text style={{ ...styles.descriptionText, ...textDecoration, color: textColor }}>{ data.description }</Text>
 
             <TouchableOpacity onPress={onDelete}>
-                <Image source={require('../../../assets/trash.png')} />
+                <Image source={require('../../assets/trash.png')} />
             </TouchableOpacity>
         </View>
     )
